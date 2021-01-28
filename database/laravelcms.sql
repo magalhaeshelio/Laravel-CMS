@@ -60,7 +60,7 @@ CREATE TABLE `settings` (
 
 INSERT INTO `settings` (`id`, `name`, `content`) VALUES
 (1, 'title', 'Pizza Interessante'),
-(2, 'subtitle', 'Criado pelo aluno'),
+(2, 'subtitle', 'Criado por mim'),
 (3, 'email', 'contacto@site.com'),
 (4, 'bgcolor', '#000080'),
 (5, 'textcolor', '#ffffff');
@@ -86,7 +86,6 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `admin`, `remember_token`) VALUES
 (1, 'Hélio Magalhães', 'magalhaes.helio@outlook.com', '$2y$10$eQcnOfJlPp8Z5Qzv0u8XAe4eVSAJP3dwvnHxm5u6L0qYdi8pv1iLO', 1, 'U3p6mAlHdTK3W4ahsUWraTCCq2SqI2bZP7mUuEs1vg2ftVG65BGKl75Y4G9D'),
-(2, 'Ariadne Monteiro', 'crimilda.monteiro@gmail.com', '$2y$10$5/9IAmJr0bBgb2xIFbTWgOmDCBLlysf0S6jYqx1dQcyLBdFZUPp06', 0, NULL),
 (4, 'Teste', 'contacto@site.com', '$2y$10$NVMiz4yXJEIVoOHykF/5o.MgVkkLrIOx7M/EFo55Zx10WclMO6xae', 0, NULL);
 
 -- --------------------------------------------------------
