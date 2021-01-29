@@ -85,7 +85,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `admin`, `remember_token`) VALUES
-(1, 'Hélio Magalhães', 'magalhaes.helio@outlook.com', '$2y$10$eQcnOfJlPp8Z5Qzv0u8XAe4eVSAJP3dwvnHxm5u6L0qYdi8pv1iLO', 1, 'U3p6mAlHdTK3W4ahsUWraTCCq2SqI2bZP7mUuEs1vg2ftVG65BGKl75Y4G9D'),
+(1, 'Hélio', 'helio@exemplo.com', '$2y$10$eQcnOfJlPp8Z5Qzv0u8XAe4eVSAJP3dwvnHxm5u6L0qYdi8pv1iLO', 1, 'U3p6mAlHdTK3W4ahsUWraTCCq2SqI2bZP7mUuEs1vg2ftVG65BGKl75Y4G9D'),
 (4, 'Teste', 'contacto@site.com', '$2y$10$NVMiz4yXJEIVoOHykF/5o.MgVkkLrIOx7M/EFo55Zx10WclMO6xae', 0, NULL);
 
 -- --------------------------------------------------------
